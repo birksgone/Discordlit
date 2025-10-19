@@ -1,3 +1,5 @@
 # Virtual Environment
 .venv/
 __pycache__/
+csv_to_json.py
+emojis.csv
