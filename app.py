@@ -12,7 +12,7 @@ st.sidebar.success("Select a tool above.")
 
 st.markdown(
     """
-    This is a collection of tools designed to help with Empires & Puzzxes Discord formatting and utilities.
+    This is a collection of tools designed to help with Empires & Puzzles Discord formatting and utilities.
     
     **👈 Select a tool from the sidebar** to get started.
     
