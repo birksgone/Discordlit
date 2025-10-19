@@ -4,7 +4,7 @@ import csv
 import io
 import unicodedata
 
-# --- ここから下の処理ロジックは、以前のものをそのままコピー ---
+# --- 処理ロジック (変更なし) ---
 def get_east_asian_width_count(text):
     count = 0
     for char in text:
@@ -13,19 +13,6 @@ def get_east_asian_width_count(text):
         else:
             count += 1
     return count
-# (以降、create_formatted_lines, format_for_discord_inline, format_for_discord_block などの関数は全てここにペースト)
-# ... (中略) ...
-# --- ここまでロジック ---
-
-# --- ここからがこのページのUI部分 ---
-st.title("Discord Table Formatter")
-
-# (以前作成したStreamlit版のUI部分を全てここにペースト)
-# ...
-# st.sidebar.header("Settings") から始まるUIコード...
-
-# --- NOTE: For clarity, here is the full code for this file ---
-# --- You can just copy this whole block into 1_Table_Formatter.py ---
 
 def wrap_text(text, width):
     lines = []
@@ -94,33 +81,55 @@ def format_for_discord_block(lines, use_brackets=False):
     if use_brackets: lines = [f"[{line}]" for line in lines]
     return "```\n" + "\n".join(lines) + "\n```"
 
-st.header("Settings")
+# --- ここからが修正されたUI部分 ---
+
+st.title("Discord Table Formatter")
+
+# セッション状態を初期化して、前の結果を保持できるようにする
+if 'output_text' not in st.session_state:
+    st.session_state.output_text = ""
+
+# --- 設定項目 ---
+st.header("1. Settings")
 max_width = st.number_input("Max column width:", min_value=10, value=35)
 spacing = st.number_input("Spacing (between columns):", min_value=0, value=2)
 padding = st.number_input("Padding (start/end of line):", min_value=0, value=0)
 
-st.header("Format Style")
+st.header("2. Format Style")
 format_style = st.radio(
     "Choose format style",
-    ("Code block (```)", "Inline code (` `)")
+    ("Code block (```)", "Inline code (` `)"),
+    label_visibility="collapsed"
 )
 use_brackets = st.checkbox("Add [ ] brackets")
 
-st.header("Input Data")
+# --- 入力エリア ---
+st.header("3. Input Data")
 st.write("Paste your table data from Google Sheets or CSV below.")
 input_text = st.text_area("Input Data", height=250, label_visibility="collapsed")
 
-if input_text:
-    try:
-        formatted_lines = create_formatted_lines(input_text, max_width, spacing, padding)
+# --- 実行ボタン ---
+if st.button("Convert Table"):
+    if input_text:
+        try:
+            # ボタンが押されたら変換処理を実行
+            formatted_lines = create_formatted_lines(input_text, max_width, spacing, padding)
 
-        if format_style == "Inline code (` `)":
-            output_text = format_for_discord_inline(formatted_lines, use_brackets)
-        else:
-            output_text = format_for_discord_block(formatted_lines, use_brackets)
+            if format_style == "Inline code (` `)":
+                # 結果をセッション状態に保存
+                st.session_state.output_text = format_for_discord_inline(formatted_lines, use_brackets)
+            else:
+                st.session_state.output_text = format_for_discord_block(formatted_lines, use_brackets)
 
-        st.header("Result")
-        st.code(output_text, language="")
+        except Exception as e:
+            st.error(f"An error occurred: {e}")
+    else:
+        # 入力が空の場合
+        st.warning("Please paste some data into the input area first.")
+        st.session_state.output_text = ""
 
-    except Exception as e:
-        st.error(f"An error occurred: {e}")
+# --- 結果表示 ---
+# セッション状態に結果があれば、それを表示する
+if st.session_state.output_text:
+    st.header("4. Result")
+    st.code(st.session_state.output_text, language="")

@@ -1,0 +1,512 @@
+[
+  {
+    "categori": "ELEMENT",
+    "name": ":element_shield_blue_01:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410600852405616703.png"
+  },
+  {
+    "categori": "ELEMENT",
+    "name": ":elemental_shield_green_01:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410600833879380059.png"
+  },
+  {
+    "categori": "ELEMENT",
+    "name": ":elemental_shield_purple_01:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410600816703963147.png"
+  },
+  {
+    "categori": "ELEMENT",
+    "name": ":elemental_shield_red_01:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410600797741383870.png"
+  },
+  {
+    "categori": "ELEMENT",
+    "name": ":elemental_shield_yellow_01:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410600985314852874.png"
+  },
+  {
+    "categori": "ELEMENT",
+    "name": ":heraldred:",
+    "image_url": "https://cdn.discordapp.com/emojis/1420747334312005744.png"
+  },
+  {
+    "categori": "CLASS",
+    "name": ":emblem_barbarian:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410601918807543888.png"
+  },
+  {
+    "categori": "CLASS",
+    "name": ":emblem_cleric:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410601930694201406.png"
+  },
+  {
+    "categori": "CLASS",
+    "name": ":emblem_druid:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410601941674754192.png"
+  },
+  {
+    "categori": "CLASS",
+    "name": ":emblem_fighter:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410601953620267038.png"
+  },
+  {
+    "categori": "CLASS",
+    "name": ":emblem_monk:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410601966857617488.png"
+  },
+  {
+    "categori": "CLASS",
+    "name": ":emblem_paladin:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410601984213647401.png"
+  },
+  {
+    "categori": "CLASS",
+    "name": ":emblem_ranger:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410601996142247997.png"
+  },
+  {
+    "categori": "CLASS",
+    "name": ":emblem_rogue:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410602013083041792.png"
+  },
+  {
+    "categori": "CLASS",
+    "name": ":emblem_sorcerer:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410602024243826750.png"
+  },
+  {
+    "categori": "CLASS",
+    "name": ":emblem_wizard:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410602037166604459.png"
+  },
+  {
+    "categori": "LIMITBREAK",
+    "name": ":limitbreak_alpha:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410600168834990203.png"
+  },
+  {
+    "categori": "LIMITBREAK",
+    "name": ":limitbreak_legendary_blue:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410600440852250624.png"
+  },
+  {
+    "categori": "LIMITBREAK",
+    "name": ":limitbreak_legendary_green:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410600419561963601.png"
+  },
+  {
+    "categori": "LIMITBREAK",
+    "name": ":limitbreak_legendary_purple:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410600389832872060.png"
+  },
+  {
+    "categori": "LIMITBREAK",
+    "name": ":limitbreak_legendary_red:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410600368357769287.png"
+  },
+  {
+    "categori": "LIMITBREAK",
+    "name": ":limitbreak_legendary_yellow:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410600220445773905.png"
+  },
+  {
+    "categori": "LIMITBREAK",
+    "name": ":aether_crystal:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410601436429029518.png"
+  },
+  {
+    "categori": "RESOURCES",
+    "name": ":ham:",
+    "image_url": "https://cdn.discordapp.com/emojis/1407653826529460234.png"
+  },
+  {
+    "categori": "RESOURCES",
+    "name": ":iron:",
+    "image_url": "https://cdn.discordapp.com/emojis/1407653860885139487.png"
+  },
+  {
+    "categori": "RESOURCES",
+    "name": ":energy_alliance:",
+    "image_url": "https://cdn.discordapp.com/emojis/1407645925714694175.png"
+  },
+  {
+    "categori": "RESOURCES",
+    "name": ":energy_pve:",
+    "image_url": "https://cdn.discordapp.com/emojis/1407645956106878996.png"
+  },
+  {
+    "categori": "RESOURCES",
+    "name": ":energy_pvp:",
+    "image_url": "https://cdn.discordapp.com/emojis/1407645883058753546.png"
+  },
+  {
+    "categori": "RESOURCES",
+    "name": ":loot_ticket:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410601526849966172.png"
+  },
+  {
+    "categori": "ASCENSION/CRAFT",
+    "name": ":tome_of_tactics:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410890084659757066.png"
+  },
+  {
+    "categori": "ASCENSION/CRAFT",
+    "name": ":warm_cape:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410890111587057724.png"
+  },
+  {
+    "categori": "ASCENSION/CRAFT",
+    "name": ":tall_boots:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410890067697733632.png"
+  },
+  {
+    "categori": "ASCENSION/CRAFT",
+    "name": ":wooden_shield:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410890123247222784.png"
+  },
+  {
+    "categori": "ASCENSION/CRAFT",
+    "name": ":training_manual:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410890097271898202.png"
+  },
+  {
+    "categori": "ASCENSION/CRAFT",
+    "name": ":titan_battle_time_freeze:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410600577444085860.png"
+  },
+  {
+    "categori": "ASCENSION/CRAFT",
+    "name": ":titan_item_eye:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410891012653711441.png"
+  },
+  {
+    "categori": "ASCENSION/CRAFT",
+    "name": ":titan_item_skull:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410890996337737781.png"
+  },
+  {
+    "categori": "EVENT",
+    "name": ":herocoach:",
+    "image_url": "https://cdn.discordapp.com/emojis/1420747154309386250.png"
+  },
+  {
+    "categori": "EVENT",
+    "name": ":outfitter:",
+    "image_url": "https://cdn.discordapp.com/emojis/1420747244004442232.png"
+  },
+  {
+    "categori": "EVENT",
+    "name": ":valorchest:",
+    "image_url": "https://cdn.discordapp.com/emojis/1407653278585589841.png"
+  },
+  {
+    "categori": "EVENT",
+    "name": ":giantschest:",
+    "image_url": "https://cdn.discordapp.com/emojis/1407653237955235921.png"
+  },
+  {
+    "categori": "EVENT",
+    "name": ":path_of_dragons_season_pass:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410890947541073973.png"
+  },
+  {
+    "categori": "EVENT",
+    "name": ":raid:",
+    "image_url": "https://cdn.discordapp.com/emojis/1420747285477851226.png"
+  },
+  {
+    "categori": "CURRENCY/CHEST",
+    "name": ":atlantis_coin:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410599411255611514.png"
+  },
+  {
+    "categori": "CURRENCY/CHEST",
+    "name": ":valhalla_coin:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410599906900705383.png"
+  },
+  {
+    "categori": "CURRENCY/CHEST",
+    "name": ":underwild_coin:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410600064451084348.png"
+  },
+  {
+    "categori": "CURRENCY/CHEST",
+    "name": ":dunes_coin:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410599848536838324.png"
+  },
+  {
+    "categori": "CURRENCY/CHEST",
+    "name": ":Untold_tales_coin:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410600105815310466.png"
+  },
+  {
+    "categori": "CURRENCY/CHEST",
+    "name": ":alliance_quest_coin:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410600005777096705.png"
+  },
+  {
+    "categori": "CURRENCY/CHEST",
+    "name": ":tower_coin:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410599490271842444.png"
+  },
+  {
+    "categori": "CURRENCY/CHEST",
+    "name": ":war_coin:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410599585780600882.png"
+  },
+  {
+    "categori": "CURRENCY/CHEST",
+    "name": ":goblin_coin:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410599977197109329.png"
+  },
+  {
+    "categori": "CURRENCY/CHEST",
+    "name": ":gems:",
+    "image_url": "https://cdn.discordapp.com/emojis/1407644881698029620.png"
+  },
+  {
+    "categori": "CURRENCY/CHEST",
+    "name": ":elite_hero:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410601322335698994.png"
+  },
+  {
+    "categori": "CURRENCY/CHEST",
+    "name": ":challenge_coin_skull:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410600047426666619.png"
+  },
+  {
+    "categori": "CURRENCY/CHEST",
+    "name": ":hotmCoin:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410600490890301553.png"
+  },
+  {
+    "categori": "CURRENCY/CHEST",
+    "name": ":elemental_coin:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410599532302962710.png"
+  },
+  {
+    "categori": "CURRENCY/CHEST",
+    "name": ":dragon_legendary_coin:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410601496026026065.png"
+  },
+  {
+    "categori": "DRAGON",
+    "name": ":dragon_assist_skill_upgrade_mate:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410890966218571826.png"
+  },
+  {
+    "categori": "DRAGON",
+    "name": ":dragon_chalice_rainbow:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410890145850462269.png"
+  },
+  {
+    "categori": "DRAGON",
+    "name": ":dragon_feather_blue:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410890157426741278.png"
+  },
+  {
+    "categori": "DRAGON",
+    "name": ":dragon_headdress_ornate:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410890173545189497.png"
+  },
+  {
+    "categori": "DRAGON",
+    "name": ":dragon_item_draconic_fruit:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410890927781842995.png"
+  },
+  {
+    "categori": "DRAGON",
+    "name": ":dragon_item_glimmering_fang:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410890904948178965.png"
+  },
+  {
+    "categori": "DRAGON",
+    "name": ":dragon_item_volcanic_oil:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410890886396641341.png"
+  },
+  {
+    "categori": "DRAGON",
+    "name": ":dragon_mortar_and_pestle:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410890186430087261.png"
+  },
+  {
+    "categori": "DRAGON",
+    "name": ":dragon_pendant_amethyst:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410890197834661888.png"
+  },
+  {
+    "categori": "DRAGON",
+    "name": ":dragon_tool_jade_dagger:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410890281615622205.png"
+  },
+  {
+    "categori": "DRAGON",
+    "name": ":dragon_tool_topaz_hammer:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410890228142571561.png"
+  },
+  {
+    "categori": "DRAGON",
+    "name": ":dragon_uncut_amethyst:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410890249609154560.png"
+  },
+  {
+    "categori": "GENERAL",
+    "name": ":EP_Logo:",
+    "image_url": "https://cdn.discordapp.com/emojis/1407646287343521914.png"
+  },
+  {
+    "categori": "GENERAL",
+    "name": ":beta:",
+    "image_url": "https://cdn.discordapp.com/emojis/1420747187662360656.png"
+  },
+  {
+    "categori": "GENERAL",
+    "name": ":Rules:",
+    "image_url": "https://cdn.discordapp.com/emojis/1408042205679063082.png"
+  },
+  {
+    "categori": "GENERAL",
+    "name": ":Fanart:",
+    "image_url": "https://cdn.discordapp.com/emojis/1408042152818118807.png"
+  },
+  {
+    "categori": "GENERAL",
+    "name": ":helmet:",
+    "image_url": "https://cdn.discordapp.com/emojis/1422924122509414490.png"
+  },
+  {
+    "categori": "GENERAL",
+    "name": ":newbie:",
+    "image_url": "https://cdn.discordapp.com/emojis/1420747212631310427.png"
+  },
+  {
+    "categori": "GENERAL",
+    "name": ":purple_epic_ninja:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410614511966355467.png"
+  },
+  {
+    "categori": "GENERAL",
+    "name": ":yellow_epic_styx:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410614514981928980.png"
+  },
+  {
+    "categori": "GENERAL",
+    "name": ":rainbow_epic_trainer:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410601031234228364.png"
+  },
+  {
+    "categori": "GENERAL",
+    "name": ":DarkLordFans:",
+    "image_url": "https://cdn.discordapp.com/emojis/1420715040385925264.png"
+  },
+  {
+    "categori": "GENERAL",
+    "name": ":Elenahappy:",
+    "image_url": "https://cdn.discordapp.com/emojis/1421824665835409428.png"
+  },
+  {
+    "categori": "GENERAL",
+    "name": ":sparkle~1:",
+    "image_url": "https://cdn.discordapp.com/emojis/1421824579776544799.png"
+  },
+  {
+    "categori": "GENERAL",
+    "name": ":Toons_Elena:",
+    "image_url": "https://cdn.discordapp.com/emojis/1410918213172330598.png"
+  },
+  {
+    "categori": "GENERAL",
+    "name": ":Toons_Richard_Icon:",
+    "image_url": "https://cdn.discordapp.com/emojis/1407743612443431126.png"
+  },
+  {
+    "categori": "GENERAL",
+    "name": ":richardhammer:",
+    "image_url": "https://cdn.discordapp.com/emojis/1422113327894495263.png"
+  },
+  {
+    "categori": "GENERAL",
+    "name": ":dawatoon:",
+    "image_url": "https://cdn.discordapp.com/emojis/1423285510515982476.png"
+  },
+  {
+    "categori": "GENERAL",
+    "name": ":vivica:",
+    "image_url": "https://cdn.discordapp.com/emojis/1407616198509592656.png"
+  },
+  {
+    "categori": "GENERAL",
+    "name": ":vivica_angy:",
+    "image_url": "https://cdn.discordapp.com/emojis/1407616124887109682.png"
+  },
+  {
+    "categori": "GENERAL",
+    "name": ":vivica_shook:",
+    "image_url": "https://cdn.discordapp.com/emojis/1407616166482149426.png"
+  },
+  {
+    "categori": "GENERAL",
+    "name": ":frogprince:",
+    "image_url": "https://cdn.discordapp.com/emojis/1422628823379480616.png"
+  },
+  {
+    "categori": "GENERAL",
+    "name": ":eyesbogart:",
+    "image_url": "https://cdn.discordapp.com/emojis/1422110213099487324.png"
+  },
+  {
+    "categori": "GENERAL",
+    "name": ":susbogart:",
+    "image_url": "https://cdn.discordapp.com/emojis/1422110174658953299.png"
+  },
+  {
+    "categori": "GENERAL",
+    "name": ":sweatbogart:",
+    "image_url": "https://cdn.discordapp.com/emojis/1422109229262835804.png"
+  },
+  {
+    "categori": "BATTLE ITEMS",
+    "name": ":bomb_barrage: ",
+    "image_url": "https://cdn.discordapp.com/emojis/1410601101199151146.png"
+  },
+  {
+    "categori": "BATTLE ITEMS",
+    "name": ":hail_of_arrows: ",
+    "image_url": "https://cdn.discordapp.com/emojis/1410601147445547090.png"
+  },
+  {
+    "categori": "BATTLE ITEMS",
+    "name": ":hail_of_spears: ",
+    "image_url": "https://cdn.discordapp.com/emojis/1410601120606458018.png"
+  },
+  {
+    "categori": "BATTLE ITEMS",
+    "name": ":tornado: ",
+    "image_url": "https://cdn.discordapp.com/emojis/1410614524045819958.png"
+  },
+  {
+    "categori": "BATTLE ITEMS",
+    "name": ":wall_of_shields: ",
+    "image_url": "https://cdn.discordapp.com/emojis/1410601289351692329.png"
+  },
+  {
+    "categori": "BATTLE ITEMS",
+    "name": ":mana_potion: ",
+    "image_url": "https://cdn.discordapp.com/emojis/1410600692363563068.png"
+  },
+  {
+    "categori": "BATTLE ITEMS",
+    "name": ":healingpotion: ",
+    "image_url": "https://cdn.discordapp.com/emojis/1407645308288237598.png"
+  },
+  {
+    "categori": "BATTLE ITEMS",
+    "name": ":miracle_scroll: ",
+    "image_url": "https://cdn.discordapp.com/emojis/1410600135469301833.png"
+  },
+  {
+    "categori": "BATTLE ITEMS",
+    "name": ":red_banner: ",
+    "image_url": "https://cdn.discordapp.com/emojis/1410601181037727764.png"
+  }
+]
