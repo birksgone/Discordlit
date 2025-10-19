@@ -1,6 +1,6 @@
 # Discordlit Tools 🛠️
 
-A collection of web-based utilities built with Streamlit to make managing and formatting content for Discord easier. This app is designed for contents creators and users who want to create clean, well-formatted messages without manually fighting with Markdown.
+A collection of web-based utilities built with Streamlit to make managing and formatting content for Discord easier. This app is designed for contents creators and users who want to create clean, well-formatted messages without manually fighting with Markdown. — BirksG
 
 ## 👉 [Live Demo](https://discordlit.streamlit.app/)
 
