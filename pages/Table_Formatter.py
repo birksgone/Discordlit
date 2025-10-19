@@ -91,14 +91,14 @@ if 'output_text' not in st.session_state:
 
 # --- 設定項目 ---
 st.header("1. Settings")
-max_width = st.number_input("Max column width:", min_value=10, value=35)
+max_width = st.number_input("Max column width (35 is easy for mobile device):", min_value=10, value=35)
 spacing = st.number_input("Spacing (between columns):", min_value=0, value=2)
 padding = st.number_input("Padding (start/end of line):", min_value=0, value=0)
 
 st.header("2. Format Style")
 format_style = st.radio(
     "Choose format style",
-    ("Code block (```)", "Inline code (` `)"),
+    ("Code block (```) for full width", "Inline code (` `) for narrow width"),
     label_visibility="collapsed"
 )
 use_brackets = st.checkbox("Add [ ] brackets")
