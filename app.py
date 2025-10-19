@@ -21,6 +21,6 @@ st.markdown(
     
     ---
     
-    *More tools will be added in the future!*
+    *More tools will be added in the future! - BirksG*
     """
 )
