@@ -81,15 +81,13 @@ def format_for_discord_block(lines, use_brackets=False):
     if use_brackets: lines = [f"[{line}]" for line in lines]
     return "```\n" + "\n".join(lines) + "\n```"
 
-# --- ここからが修正されたUI部分 ---
+# --- UI部分 ---
 
-st.title("Discord Table Formatter")
+st.title("📝 Discord Table Formatter")
 
-# セッション状態を初期化して、前の結果を保持できるようにする
 if 'output_text' not in st.session_state:
     st.session_state.output_text = ""
 
-# --- 設定項目 ---
 st.header("1. Settings")
 max_width = st.number_input("Max column width (35 is easy for mobile device):", min_value=10, value=35)
 spacing = st.number_input("Spacing (between columns):", min_value=0, value=2)
@@ -103,20 +101,18 @@ format_style = st.radio(
 )
 use_brackets = st.checkbox("Add [ ] brackets")
 
-# --- 入力エリア ---
 st.header("3. Input Data")
 st.write("Paste your table data from Google Sheets or CSV below.")
 input_text = st.text_area("Input Data", height=250, label_visibility="collapsed")
 
-# --- 実行ボタン ---
-if st.button("Convert Table"):
+if st.button("Convert Table", type="primary"):
     if input_text:
         try:
-            # ボタンが押されたら変換処理を実行
             formatted_lines = create_formatted_lines(input_text, max_width, spacing, padding)
 
-            if format_style == "Inline code (` `)":
-                # 結果をセッション状態に保存
+            # ★★★ ここが修正点 ★★★
+            # ラジオボタンの選択肢のテキストと完全に一致するように修正
+            if format_style == "Inline code (` `) for narrow width":
                 st.session_state.output_text = format_for_discord_inline(formatted_lines, use_brackets)
             else:
                 st.session_state.output_text = format_for_discord_block(formatted_lines, use_brackets)
@@ -124,12 +120,9 @@ if st.button("Convert Table"):
         except Exception as e:
             st.error(f"An error occurred: {e}")
     else:
-        # 入力が空の場合
         st.warning("Please paste some data into the input area first.")
         st.session_state.output_text = ""
 
-# --- 結果表示 ---
-# セッション状態に結果があれば、それを表示する
 if st.session_state.output_text:
     st.header("4. Result")
     st.code(st.session_state.output_text, language="")
